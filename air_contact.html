@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat Alternates">
+    <link rel="stylesheet" href="css/air_contact.css"> 
+
+    <title>Наши контакты</title>
+  </head>
+  
+  
+  <body>
+        <!--контейнер всего сайта-->
+<div class="main">
+    
+        <!--шапка-логотип-->
+        <header>
+            <div class="header my-container">
+                <a href="index.html" title="Ресторан Воздух"><img src="img/logo_air.svg" alt="воздух" top="0"></a>
+            </div>
+        </header>
+        <!--шапка-логотип-->
+        
+        <!--контейнер тела сайта-->
+    <div class=page>
+        
+        <!--нав панель-->
+        <div class="nav my-container">
+            <nav class="menu">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+  
+                <ul class="menu-list">
+                    <li><a href="index.html" class="menu-link">Главная</a></li>
+                    <li><a href="air_about_us.html" class="menu-link">О нас</a></li>
+                    <li><a href="air_menu.html" class="menu-link">Меню</a></li>
+                    <li><a href="air_contact.html" class="menu-link">Контакты</a></li>
+                </ul>
+            </nav>                
+         </div>
+        <!--нав панель-->
+        
+        <!--текстовый контейнер-->
+        <div class="my-container">
+            <h2>Ждем Вас в гости</h2>
+            <div class="orient">
+                <div class="orient_img">
+                    <img src="img/welcome.jpg" alt="welcome">
+                </div>
+                <div class="orient_text">
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi illo molestiae labore quae pariatur perspiciatis rem cupiditate consequuntur minima! Ab, at, sequi consequuntur tenetur necessitatibus asperiores ad vero iusto.</span><span>Quo, cum perferendis laborum dolor quaerat fuga atque nostrum adipisci odio illo consequatur optio rem. Fugiat, sunt, aliquid ad autem saepe repellat pariatur animi distinctio quisquam sapiente minima veritatis sequi!</span></p>
+                </div>
+            </div>
+            
+        </div>
+        <!--текстовый контейнер-->
+                
+        <!--карта-->
+        <div class"my-container">
+            <div class="map">
+         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A197eaa3448c5d8e7223860f9d9d9fe03ccdae42fd89bb6b380e66b1ae7c79a4e&amp;source=constructor" width="80%" height="400" frameborder="0"></iframe> 
+            </div>
+        </div>
+        <!--карта-->
+        
+        <!--резерв-->
+    <div class="my-container">
+        <h3>Зарезервировать столик</h3>
+    <form id="send_form" onsubmit="sendForm(); return false;">
+        
+        <div class="order">
+        <div class="order_form name">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name">
+        </div>
+		  <div class="order_form person">
+			<label for="person">Количество гостей</label>
+			<select id="person" name="quantity">
+				 <option>1 персона</option>
+				 <option>2 персоны</option>
+				 <option>3 персоны</option>
+				 <option>4 персоны</option>
+				 <option>5 персон</option>
+				 <option>6 персон</option>
+			</select>
+	  </div>
+        <div class="order_form date">
+            <label for="date">Выберите дату</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div class="order_form time">
+            <label for="time">Выберите время</label>
+            <input type="time" id="time" name="time">
+        </div>
+         </div>
+        
+        <button type="submit" class="btn_order">Готово</button>
+    </form>
+    </div>
+        <!--резерв-->
+        
+        <!--подвал-->
+    <div class="my-container">
+    <footer>
+        <div class="footer">
+            <!-- меню навигации-->
+        <div class="navigation">
+            <ul class="menu-footer">
+                <li><a href="index.html" class="footer-link">Главная</a></li>
+                <li><a href="air_about_us.html" class="footer-link">О нас</a></li>
+                <li><a href="air_menu.html" class="footer-link">Меню</a></li>
+                <li><a href="air_contact.html" class="footer-link">Контакты</a></li>
+            </ul>    
+        </div>
+        <!--меню навигации-->
+        
+        <!--контакты-->
+        <div class="contact">
+            <h5>Контакты</h5>
+            <p>Адрес: г. Москва, пр. Мира д.26 стр.1</p>
+            <p>Телефон: 8(495)111-11-11</p>
+        </div>
+        <!--контакты-->
+        
+        <!--соц-->
+        <div class="social">
+            <h5>Присоединяйтесь</h5>
+            <div class="social-icon">
+            <a href="https://tripadvisor.com" title="Мы на Tripadvisor"><img src="img/tripadvisor.svg" alt="Ta"></a>
+            <a href="https://vk.com" title="Мы Вконтакте"><img src="img/vk.svg" alt="vk"></a>
+            <a href="https://www.instagram.com/" title="Мы в Instagram"><img src="img/instagram.svg" alt="insta"></a>
+            <a href="https://www.pinterest.ru" title="Мы на Pinterest"><img src="img/pinterest.svg" alt="Pinterest"></a>
+            </div>
+        </div>
+        <!--соц-->
+        </div>
+        <p>Открыты для Вас ежедневно с 9.00 и до последнего гостя.</p>
+        <p>&#169 copyright 2020 | Powered by М.Yarantseva</p>
+    </footer>
+    </div>
+        <!--подвал-->
+   </div>   
+        <!--контейнер тела сайта-->
+</div>
+    <!--контейнер всего сайта-->
+
+
+
+
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+	crossorigin="anonymous"></script>
+
+	<!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+  </body>
+</html>

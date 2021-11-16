@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat Alternates">
+	<link rel="stylesheet" href="css/air.css">
+
+	
+
+	<title>Ресторан Воздух</title>
+</head>
+<body>
+	
+	<!--контейнер всего сайта-->
+	<div class="main">
+
+		<!--шапка-логотип-->
+		<header>
+			<div class="header my-container">
+				<a href="index.html" title="Ресторан Воздух"><img src="img/logo_air.svg"
+						alt="воздух" top="0"></a>
+			</div>
+		</header>
+		<!--шапка-логотип-->
+
+		<!--контейнер тела сайта-->
+		<div class=page>
+
+			<!--нав панель-->
+			<div class="nav my-container">
+				<nav class="menu">
+					<div class="hamburger-menu">
+						<input id="menu__toggle" type="checkbox" />
+						<label class="menu__btn" for="menu__toggle">
+							<span></span>
+						</label>
+
+						<ul class="menu-list">
+							<li><a href="index.html" class="menu-link">Главная</a></li>
+							<li><a href="air_about_us.html" class="menu-link">О нас</a></li>
+							<li><a href="air_menu.html" class="menu-link">Меню</a></li>
+							<li><a href="air_contact.html" class="menu-link">Контакты</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!--нав панель-->
+
+			<!--карусель-->
+			<div class="my-container">
+				<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active" data-interval="3000">
+							<img src="img/foto1.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item" data-interval="3000">
+							<img src="img/foto2.jpg" class="d-block w-100" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item" data-interval="3000">
+							<img src="img/foto3.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item" data-interval="3000">
+							<img src="img/foto4.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item" data-interval="3000">
+							<img src="img/foto5.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item" data-interval="3000">
+							<img src="img/foto6.jpg" class="d-block w-100" class="d-block w-100" alt="...">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Карусель-->
+
+		
+			<!--комфорт-->
+			<div class="my-container">
+				<h3>Добро пожаловать в наш ресторан</h3>
+				<div class="comfort">
+					<div class="lunch">
+						<img src="img/lunch.png" alt="бизнес-ланч">
+						<h5>Бизнес-ланч</h5>
+						<p>В будние дни с 12.00 до 16.00</p>
+					</div>
+					<div class="payment">
+						<img src="img/payment.png" alt="оплата">
+						<h5>Удобный способ оплаты</h5>
+						<p>Наличными, пластиковой картой, Apple Pay, NFC</p>
+					</div>
+					<div class="music">
+						<img src="img/music.png" alt="музыка">
+						<h5>Живая музыка</h5>
+						<p>Каждый вечер после 20.00</p>
+					</div>
+					<div class="kitchen">
+						<img src="img/kitchen.png" alt="кухня">
+						<h5>Открытая кухня</h5>
+					</div>
+					<div class="parking">
+						<img src="img/parking.png" alt="парковка">
+						<h5>Бесплатная парковка</h5>
+					</div>
+					<div class="wifi">
+						<img src="img/wifi.png" alt="wi-fi">
+						<h5>Wi-Fi</h5>
+					</div>
+				</div>
+			</div>
+			<!--Комфорт-->
+
+			<!--резерв-->
+			<div class="my-container">
+				<div id="response">
+					<h3>Зарезервировать столик</h3>
+					<form id="send_form">
+
+						<div class="order">
+							<div class="order_form name">
+								<label for="name">Ваше имя</label>
+								<input type="text" id="name" name="name">
+							</div>
+							<div class="order_form person">
+								<label for="person">Количество гостей</label>
+								<select id="person" name="quantity">
+									<option>1 персона</option>
+									<option>2 персоны</option>
+									<option>3 персоны</option>
+									<option>4 персоны</option>
+									<option>5 персон</option>
+									<option>6 персон</option>
+								</select>
+							</div>
+							<div class="order_form date">
+								<label for="date">Выберите дату</label>
+								<input type="date" id="date" name="date">
+							</div>
+							<div class="order_form time">
+								<label for="time">Выберите время</label>
+								<input type="time" id="time" name="time">
+							</div>
+							
+						</div>
+
+						<button type="submit" class="btn_order">Готово</button>
+					</form>
+				</div>
+			</div>
+
+			<!--резерв-->
+
+			<!--подвал-->
+			<div class="my-container">
+				<footer>
+					<div class="footer">
+						<!-- меню навигации-->
+						<div class="navigation">
+							<ul class="menu-footer">
+								<li><a href="index.html" class="footer-link">Главная</a></li>
+								<li><a href="air_about_us.html" class="footer-link">О нас</a></li>
+								<li><a href="air_menu.html" class="footer-link">Меню</a></li>
+								<li><a href="air_contact.html" class="footer-link">Контакты</a>
+								</li>
+							</ul>
+						</div>
+						<!--меню навигации-->
+
+						<!--контакты-->
+						<div class="contact">
+							<h5>Контакты</h5>
+							<p>Адрес: г. Москва, пр. Мира д.26 стр.1</p>
+							<p>Телефон: 8(495)111-11-11</p>
+						</div>
+						<!--контакты-->
+
+						<!--соц-->
+						<div class="social">
+							<h5>Присоединяйтесь</h5>
+							<div class="social-icon">
+								<a href="https://tripadvisor.com" title="Мы на Tripadvisor"><img src="img/tripadvisor.svg"
+										alt="Ta"></a>
+								<a href="https://vk.com" title="Мы Вконтакте"><img src="img/vk.svg" alt="vk"></a>
+								<a href="https://www.instagram.com/" title="Мы в Instagram"><img src="img/instagram.svg"
+										alt="insta"></a>
+								<a href="https://www.pinterest.ru" title="Мы на Pinterest"><img src="img/pinterest.svg"
+										alt="Pinterest"></a>
+							</div>
+						</div>
+						<!--соц-->
+					</div>
+					<p>Открыты для Вас ежедневно с 9.00 и до последнего гостя.</p>
+					<p>&#169 copyright 2020 | Powered by М.Yarantseva</p>
+				</footer>
+			</div>
+			<!--подвал-->
+		</div>
+		<!--контейнер тела сайта-->
+	</div>
+	<!--контейнер всего сайта-->
+
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+	crossorigin="anonymous"></script>
+
+	<!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
